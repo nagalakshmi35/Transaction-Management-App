@@ -12,7 +12,7 @@ app.use(cors({
   origin: "https://transaction-management-app-frontend.onrender.com"
 }));
 
-const PORT = process.env.PORT || 5003; //PORT Number
+const PORT = process.env.PORT || "https://transaction-management-app-backend.onrender.com"; //PORT Number
 const dbPath = path.join(__dirname, "transactions.db"); //database path
 
 let db = null;
