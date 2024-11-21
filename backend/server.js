@@ -9,7 +9,7 @@ const { createUserTable } = require("./models/User");
 const app = express();
 app.use(express.json());
 app.use(cors({
-  origin: "https://transaction-management-app-backend.onrender.com"
+  origin: "https://transaction-management-app-frontend.onrender.com"
 }));
 
 const PORT = process.env.PORT || 5003; //PORT Number
