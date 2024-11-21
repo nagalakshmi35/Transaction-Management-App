@@ -9,7 +9,7 @@ class TransactionList extends Component {
   }
 
   getAllTransactionsList = async () => {
-    const url = "http://localhost:5003/api/transactions/all";
+    const url = "https://transaction-management-app-backend.onrender.com/api/transactions/all";
     const response = await fetch(url);
 
     if (!response.ok) {
