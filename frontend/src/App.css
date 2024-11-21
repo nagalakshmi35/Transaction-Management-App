@@ -1,6 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif, "Roboto";
   background-color: #f5f5f5;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
