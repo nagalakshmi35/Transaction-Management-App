@@ -77,3 +77,12 @@
     padding: 10px;
   }
 }
+
+.heading-col {
+  font-size: 15px;
+}
+
+th, td {
+  vertical-align: middle;
+  text-align: center;
+}
