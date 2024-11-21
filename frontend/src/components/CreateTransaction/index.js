@@ -32,7 +32,7 @@ class CreateTransaction extends Component {
       user: parseInt(userID),
     };
 
-    const response = await fetch("http://localhost:5003/api/transactions", {
+    const response = await fetch("https://transaction-management-app-backend.onrender.com/api/transactions", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: {
