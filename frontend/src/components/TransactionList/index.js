@@ -56,7 +56,7 @@ class TransactionList extends Component {
                 <h4 className="transaction-details">Transaction Details : </h4>
                 <table className="transaction-table">
                   <thead>
-                    <tr>
+                    <tr className="heading-col">
                       <th> Transaction ID</th>
                       <th> Amount</th>
                       <th> Transaction Type</th>
@@ -67,7 +67,7 @@ class TransactionList extends Component {
                   </thead>
                   <tbody>
                     {allTransactionsList.map((eachItem) => (
-                      <tr key={eachItem.transactionID}>
+                      <tr key={eachItem.transactionID} className="heading-col">
                         <td>{eachItem.transactionID}</td>
                         <td>{eachItem.amount}</td>
                         <td>{eachItem.transactionType}</td>
