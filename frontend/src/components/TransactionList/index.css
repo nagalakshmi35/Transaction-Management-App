@@ -1,0 +1,79 @@
+.all-transactions-list {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  align-items: center;
+  font-size: 28px;
+}
+
+.transaction-details {
+  font-family: "Roboto";
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.no-transaction {
+  font-weight: 700;
+}
+
+.table-container {
+  width: 80%;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: scroll;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: "Roboto";
+}
+
+/* Table styles */
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.transaction-table thead {
+  background-color: #bcc3bd;
+  color: white;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.transaction-table th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.transaction-table td {
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .table-container {
+    width: 95%;
+  }
+
+  .transaction-table th,
+  .transaction-table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

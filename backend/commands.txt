@@ -1,0 +1,11 @@
+sqlite3 transactions.db
+
+.tables 
+
+.schema User
+
+.schema Transaction
+
+.exit 
+
+nodemon server.js

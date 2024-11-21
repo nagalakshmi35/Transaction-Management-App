@@ -1,0 +1,27 @@
+.get-transaction-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-transaction-details h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.get-transaction-details p {
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #4d5158;
+    font-size: 22px;
+}
+
+.error-message {
+    color: brown;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 18px;
+}

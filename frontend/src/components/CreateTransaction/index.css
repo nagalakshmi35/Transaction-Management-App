@@ -1,0 +1,62 @@
+.input-ele {
+ height: 45px;
+  width: 80%;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #5d6267;
+  background-color: #fcfdfd;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  outline: none;
+  padding-left: 12px;
+}
+
+.create-btn {
+    height: 45px;
+    width: 220px;
+    border: solid 0px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #1a5bab;
+    font-family: 'Roboto';
+    font-size: 20px;
+    outline: none;
+}
+
+.home-btn {
+    width: 120px;
+}
+
+.create-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-ele {
+    font-size: 18px;
+}
+
+.message {
+    color: green;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-right: 12px;
+    padding-top: 14px;
+}
+
+.message-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
