@@ -41,7 +41,7 @@ class UpdateTransaction extends Component {
     console.log(formData);
     try {
       const response = await fetch(
-        `http://localhost:5003/api/transactions/${transaction_id}/`,
+        `https://transaction-management-app-backend.onrender.com/api/transactions/${transaction_id}/`,
         {
           method: "PUT",
           headers: {
