@@ -20,7 +20,7 @@ class GetTransaction extends Component {
     }
 
     try {
-      const url = `http://localhost:5003/api/transactions/${transactionID}/`;
+      const url = `https://transaction-management-app-backend.onrender.com/api/transactions/${transactionID}/`;
       const response = await fetch(url);
 
       if (!response.ok) {
